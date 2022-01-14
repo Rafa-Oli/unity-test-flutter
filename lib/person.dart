@@ -17,4 +17,8 @@ class Person {
     result = result * 100;
     return result.roundToDouble() / 100;
   }
+
+  bool get isOlder {
+    return age >= 18;
+  }
 }
